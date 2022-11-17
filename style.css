@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form{
+    background-color: aliceblue;
+    padding: 25px;
+    border: 10px;
+}
+
+.input{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    align-items: center;
+    border: solid;
+    color: rgb(25, 24, 77);
+}
+
+.btn{
+    margin-top: 10px;
+    width: 25%;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0em;
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.score
+{
+    color: rebeccapurple;
+    text-align: center;
+}
